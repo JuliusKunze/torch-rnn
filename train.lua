@@ -11,8 +11,8 @@ local unpack = unpack or table.unpack
 local cmd = torch.CmdLine()
 
 -- Dataset options
-cmd:option('-input_h5', 'data/tiny-shakespeare.h5')
-cmd:option('-input_json', 'data/tiny-shakespeare.json')
+cmd:option('-input_h5', 'data/funny_jokes.h5')
+cmd:option('-input_json', 'data/funny_jokes.json')
 cmd:option('-batch_size', 50)
 cmd:option('-seq_length', 50)
 
